@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C1E3F248-577F-42BE-8A8F-402CFD76248B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Cliparts.SchlagDenStarLive.NumericSelectApp</RootNamespace>
+    <AssemblyName>Cliparts.SchlagDenStarLive.NumericSelectApp</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FormDisplay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDisplay.Designer.cs">
+      <DependentUpon>FormDisplay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormProgram.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormProgram.designer.cs">
+      <DependentUpon>FormProgram.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TCPCom.cs" />
+    <EmbeddedResource Include="FormDisplay.resx">
+      <DependentUpon>FormDisplay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormProgram.resx">
+      <DependentUpon>FormProgram.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Icon.ico" />
+    <None Include="Resources\Buzzer_00_out.jpg" />
+    <None Include="Resources\Buzzer_00.jpg" />
+    <None Include="Resources\Buzzer_20_out.jpg" />
+    <None Include="Resources\Buzzer_19_out.jpg" />
+    <None Include="Resources\Buzzer_18_out.jpg" />
+    <None Include="Resources\Buzzer_17_out.jpg" />
+    <None Include="Resources\Buzzer_16_out.jpg" />
+    <None Include="Resources\Buzzer_15_out.jpg" />
+    <None Include="Resources\Buzzer_14_out.jpg" />
+    <None Include="Resources\Buzzer_13_out.jpg" />
+    <None Include="Resources\Buzzer_12_out.jpg" />
+    <None Include="Resources\Buzzer_11_out.jpg" />
+    <None Include="Resources\Buzzer_10_out.jpg" />
+    <None Include="Resources\Buzzer_09_out.jpg" />
+    <None Include="Resources\Buzzer_08_out.jpg" />
+    <None Include="Resources\Buzzer_07_out.jpg" />
+    <None Include="Resources\Buzzer_06_out.jpg" />
+    <None Include="Resources\Buzzer_05_out.jpg" />
+    <None Include="Resources\Buzzer_04_out.jpg" />
+    <None Include="Resources\Buzzer_03_out.jpg" />
+    <None Include="Resources\Buzzer_02_out.jpg" />
+    <None Include="Resources\Buzzer_01_out.jpg" />
+    <None Include="Resources\BG_NEUTRAL.jpg" />
+    <None Include="Resources\Buzzer_20.jpg" />
+    <None Include="Resources\Buzzer_19.jpg" />
+    <None Include="Resources\Buzzer_18.jpg" />
+    <None Include="Resources\Buzzer_17.jpg" />
+    <None Include="Resources\Buzzer_16.jpg" />
+    <None Include="Resources\Buzzer_15.jpg" />
+    <None Include="Resources\Buzzer_14.jpg" />
+    <None Include="Resources\Buzzer_13.jpg" />
+    <None Include="Resources\Buzzer_12.jpg" />
+    <None Include="Resources\Buzzer_11.jpg" />
+    <None Include="Resources\Buzzer_10.jpg" />
+    <None Include="Resources\Buzzer_09.jpg" />
+    <None Include="Resources\Buzzer_08.jpg" />
+    <None Include="Resources\Buzzer_07.jpg" />
+    <None Include="Resources\Buzzer_06.jpg" />
+    <None Include="Resources\Buzzer_05.jpg" />
+    <None Include="Resources\Buzzer_04.jpg" />
+    <None Include="Resources\Buzzer_03.jpg" />
+    <None Include="Resources\Buzzer_02.jpg" />
+    <None Include="Resources\Buzzer_01.jpg" />
+    <None Include="Resources\BG_Logo.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Cliparts\Cliparts.csproj">
+      <Project>{eea7a2ee-1b93-4b87-938d-9b47ed519edb}</Project>
+      <Name>Cliparts</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

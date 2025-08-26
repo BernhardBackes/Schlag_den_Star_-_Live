@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Cliparts.IOnet.IOUnit.UnitControl.Units xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <UnitList>
+    <UnitPropertiesXML>
+      <Name>Pult</Name>
+      <MACAddress>00-80-A3-AF-A3-3D</MACAddress>
+      <Type>IONbuzDX_I8C</Type>
+    </UnitPropertiesXML>
+    <UnitPropertiesXML>
+      <Name>Reserve</Name>
+      <MACAddress>00-80-A3-9E-61-B5</MACAddress>
+      <Type>IONbuzDX_I8C</Type>
+    </UnitPropertiesXML>
+    <UnitPropertiesXML>
+      <Name>Puste-Rennen</Name>
+      <MACAddress>00-20-4A-E7-A0-2E</MACAddress>
+      <Type>IONbuz_I8W8</Type>
+    </UnitPropertiesXML>
+    <UnitPropertiesXML>
+      <Name>Funk-Reserve</Name>
+      <MACAddress>00-80-A3-74-F5-89</MACAddress>
+      <Type>IONbuz_I8W8</Type>
+    </UnitPropertiesXML>
+  </UnitList>
+</Cliparts.IOnet.IOUnit.UnitControl.Units>

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Cliparts.SchlagDenStarLive.MainApp.Settings.Data>
+  <VentuzInsertServer>CA-VBOX16</VentuzInsertServer>
+  <VentuzFullscreenServer>ca-vbox17</VentuzFullscreenServer>
+  <VentuzHostServer>ca-vboxds07</VentuzHostServer>
+  <VentuzLeftPlayerServer>ca-vboxds08</VentuzLeftPlayerServer>
+  <VentuzRightPlayerServer>ca-vboxds09</VentuzRightPlayerServer>
+  <MidiFilename>D:\Projekte\Schlag den Star - Live\Cliparts.SchlagDenStarLive\Cliparts.SchlagDenStarLive.MainApp\Midi.xml</MidiFilename>
+  <IONetFilename>D:\Projekte\Schlag den Star - Live\Cliparts.SchlagDenStarLive\Cliparts.SchlagDenStarLive.MainApp\IOnet.Units.xml</IONetFilename>
+  <DevantechFilename>D:\Projekte\Schlag den Star - Live\Cliparts.SchlagDenStarLive\Cliparts.SchlagDenStarLive.MainApp\Devantech.xml</DevantechFilename>
+  <ContentFilename>D:\Projekte\Schlag den Star - Live\Content\SdS 96\Content.xml</ContentFilename>
+  <TimerPositionX>0</TimerPositionX>
+  <TimerPositionY>0</TimerPositionY>
+  <TimerStyle>Sec</TimerStyle>
+  <TimerStartTime>45</TimerStartTime>
+  <TimerAlarmTime1>5</TimerAlarmTime1>
+  <TimerAlarmTime2>-1</TimerAlarmTime2>
+  <TimerStopTime>0</TimerStopTime>
+  <Car>Staffelpreis!</Car>
+  <Gainer>n.a.</Gainer>
+  <XTippKey>1,05263197422028</XTippKey>
+  <VotingTimerStartTime>180</VotingTimerStartTime>
+  <VotingTimerAlarmTime>5</VotingTimerAlarmTime>
+</Cliparts.SchlagDenStarLive.MainApp.Settings.Data>

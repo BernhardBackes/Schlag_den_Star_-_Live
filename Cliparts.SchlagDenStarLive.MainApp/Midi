@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<Cliparts.Tools.MidiMaster.Settings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <DeviceNameOut>E-MU Xmidi 2x2</DeviceNameOut>
+  <DeviceNameIn>E-MU Xmidi 2x2</DeviceNameIn>
+  <DevicePortOut>1</DevicePortOut>
+  <DevicePortIn>0</DevicePortIn>
+  <EventList />
+</Cliparts.Tools.MidiMaster.Settings>
